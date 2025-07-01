@@ -370,11 +370,11 @@ export default function AdminPanel() {
   };
 
   const tabs = [
-    { id: 'openlessons', label: 'Open Lesson Appointments', count: data.openlessons.length },
-    { id: 'otkritiyuroks', label: 'School Information Requests', count: data.otkritiyuroks.length },
-    { id: 'turs', label: 'School Tour Appointments', count: data.turs.length },
-    { id: 'reviews', label: 'Reviews', count: data.reviews.length },
-    { id: 'completedrequests', label: 'Completed Requests', count: data.completedrequests.length }
+    { id: 'openlessons', label: 'Запись на консультацию', count: data.openlessons.length },
+    { id: 'otkritiyuroks', label: 'Кто хочет подробнее узнать о школе', count: data.otkritiyuroks.length },
+    { id: 'turs', label: 'Запись на собеседование', count: data.turs.length },
+    { id: 'reviews', label: 'Отзывы', count: data.reviews.length },
+    { id: 'completedrequests', label: 'Закрытые клиенты', count: data.completedrequests.length }
   ];
 
   return (
